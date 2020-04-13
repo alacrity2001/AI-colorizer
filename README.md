@@ -17,6 +17,7 @@ http://color.kvfrans.com
 ### Prereqs
     - Python 2.7, numpy
     - Tensorflow 0.12
+    - Keras
     - OpenCV
 
 ### Running it
