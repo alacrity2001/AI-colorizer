@@ -13,17 +13,17 @@ These are some of the posters we displayed at Senior night. And a photo of proje
 ## Setup
 
 ### Prereqs
-    - Python 3.7, numpy
+    - Python 2.7, numpy
     - Tensorflow 0.12
     - OpenCV
 
 ### Running it
-1. make a folder called "results"
-2. make a folder called "imgs"
-3. Fill the "imgs" folder with your own .jpg images, or run "download_images.py" to download from Safebooru.
-4. Run "python main.py train". I trained for ~20 epochs, taking about 16 hours on one GPU.
-5. To sample, run "python main.py sample"
-6. To start the server, run "python server.py". It will host on port 8000.
+1. Create a folder "results"
+2. Create a folder "imgs"
+3. To gather dataset, run "download_images.py"
+4. Or you can fill with your own images 
+5. Run "python main.py train" in command
+6. To start the server, run "python server.py".
 
 ### Pre-trained
 The weights were unfortunately lost with my gaming laptop at somewhere in LA laptop. Since I was training with a GPU(which my previous Nvidia 1070 can easily do the job), I won't dare to train it again with my poor macbook now. 
