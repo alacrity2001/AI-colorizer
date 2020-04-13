@@ -13,7 +13,7 @@ These are some of the posters we displayed at Senior night. And a photo of proje
 ## Setup
 
 ### Prereqs
-    - Python 2.7, numpy
+    - Python 3.7, numpy
     - Tensorflow 0.12
     - Keras
     - OpenCV
